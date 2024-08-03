@@ -11,14 +11,14 @@ public class ContaTerminal {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Por favor, digite o número da Agência!");
+        System.out.println("Por favor, digite o número da Agência!");
         agencia = sc.nextInt();
-        System.out.print("Por favor, digite o número da Conta!");
+        System.out.println("Por favor, digite o número da Conta!");
         conta = sc.next();
-        System.out.print("Por favor, digite o seu nome!");
+        System.out.println("Por favor, digite o seu nome!");
         nome = sc.next();
         nome = sc.nextLine();
-        System.out.print("Por favor, quanto você irá depositar!");
+        System.out.println("Por favor, quanto você irá depositar!");
         deposito = sc.nextDouble();
         saldo = saldo + deposito;
 
